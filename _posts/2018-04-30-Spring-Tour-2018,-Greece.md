@@ -2,10 +2,10 @@
 layout: post
 title: "Spring Tour 2018 - Greece"
 date: 2018-04-30
-feat-img: spring2018.jpeg
+feat-img: spring2018.png
 ---
 
-![Trip participants](../../../img/spring2018.jpeg)
+![Trip participants](../../../img/spring2018.png)
 
 Over the last 20 years, Greek sport climbing has come to the forefront of the climbing world. The limestone tufa’s of Kalymnos have become the byword for quality European climbing. A decade on, and a new jewel in the crown of European climbing has come into fruition in the Peloponnese gorges: Leonidio. Following the impassioned works of a local climbing collective, and development grants supplied by the EU sports, the gorge around Leonidio has become home to over 2000 bolted routes, along with a collection of long trad multipitches. This bounty of gorgeous lines was how 11 members of the Imperial College Outdoor Club found themselves touching down into Kalamata airport, on the 27thof March, for a week of climbing. An uncomfortable 3 hour drive crammed into far too small rental cars, brought them to the tiny coastal town of Sampatiki, 10 minutes away from Leonidio.
 
