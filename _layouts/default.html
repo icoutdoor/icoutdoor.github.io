@@ -14,21 +14,15 @@
             <a href="index.html" class="site-title"><h1>IC OUTDOOR CLUB</h1></a>
             <div class="navbar">
                 <a href="about.html"><h3>About Us</h3></a>
-                <!-- <h3>&nbsp; &nbsp; &bull; &nbsp; &nbsp;</h3> -->
                 <a href="committee.html"><h3>Meet the Committee</h3></a>
-                <!-- <h3>&nbsp; &nbsp; &bull; &nbsp; &nbsp;</h3> -->
                 <a href="events.html"><h3>What's On</h3></a>
-                <!-- <h3>&nbsp; &nbsp; &bull; &nbsp; &nbsp;</h3> -->
                 <a href="trips.html"><h3>Trip Reports</h3></a>
             </div>
         </header>
 
         <main style="text-align: center;">
-            <h1>About the Club</h1>
-            <p>Outdoor is the best outdoor club at imperial :)</p>
-            <p>We combine several other clubs into one, with climbing (indoor and out), hiking and scrambling as our main activities. We also have some mountain bikes, rafts, and winter equipment and do other activities as often as we can :)</p>
-            <p>See useful links here:</p>
-            <a href="https://linktr.ee/icoutdoor">https://linktr.ee/icoutdoor</a>
+            <h1>{{ page.title }}</h1>
+            {{ content }}
         </main>
 
         <footer>
@@ -40,26 +34,6 @@
             Array.prototype.random = function () {
                 return this[Math.floor((Math.random()*this.length))];
             }
-
-            // async function images() {
-            //     const response = await fetch('https://api.github.com/repositories/581292313/contents/img/headers');
-            //     const images = response.json();
-            //     // const images = [...response.json()].map(element => {return element.path;});
-            //     return images
-            // }
-
-            // console.log(images());
-
-            // const header = document.getElementsByClassName('head-img')[0];
-
-            // images().then((ims) => {
-            //     console.log(ims);
-            //     const test = ims.map(e=>e["path"]);
-            //     console.log(test);
-            //     header.src = test.random();
-            // });
-
-            // const images =  ['boulder.JPG', 'boulder-2.JPG'];
 
             const header = document.getElementsByClassName('head-img')[0];
             const images =  ['boulder.JPG', 'boulder-2.JPG'];
