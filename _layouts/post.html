@@ -11,6 +11,6 @@ layout: default
         text-align: justify;
     }
 </style>
-<p>{{ post.date }}</p>
+<p>{{ post.date | date_to_string }}</p>
 
 {{ content }}

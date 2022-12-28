@@ -28,9 +28,9 @@
             {% for post in site.posts %}
             <a href="{{ post.url }}">
                 <event>
-                    <img src="/img/posts/{{post.feat-img}}">
-                    <div class="name">{{ post.title }}</div>
-                    <div class="detail">{{ post.date }}</div>
+                    <img style="width: 100%;" src="/img/posts/{{post.feat-img}}">
+                    <div class="name" style="float: none;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
                 </event>
             </a>
             {% endfor %}
