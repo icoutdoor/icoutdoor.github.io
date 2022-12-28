@@ -457,6 +457,10 @@ event .dnt {
 	background-color: var(--the-accent);
 }
 
+event img {
+	width: 100%;
+}
+
 event .date {
 	font-size: large;
 }
