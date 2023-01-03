@@ -23,7 +23,8 @@ If you add a new header image, you'll need to be sure of a few things:
 
 ## Adding new posts
 
-Thanks to Jekyll, adding posts is simple.
+Thanks to Jekyll, adding posts is simple and you can (theoretically) do everything on GitHub online without needing to clone the repo.
+
 1. Create a `.md` file in `/_posts/`
 
     Filename must be in the format `YYYY-MM-DD-Post-Title.md`
