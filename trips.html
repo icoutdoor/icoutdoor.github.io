@@ -26,7 +26,7 @@
         <main>
             <h1>Trip Reports</h1>
             {% for post in site.posts %}
-            <a href="{{ post.url }}">
+            <a href="{{ post.url }}" style="text-decoration: none;">
                 <event>
                     <img style="width: 100%;" src="/img/posts/{{post.feat-img}}">
                     <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
