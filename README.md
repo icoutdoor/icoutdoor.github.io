@@ -8,7 +8,7 @@ Hi! So you're trying to make a post on the website! (Or something is broken and 
 The site is hosted for free on GitHub Pages. It uses Jekyll to handle posting and all that sort of stuff. Jekyll's docs are pretty good so if you're wondering you can check them out [here](https://jekyllrb.com/docs/).
 I made the site using pure HTML with a little bit fo JS (literally just for the rotating header) so it's pretty lightweight and loads quite fast, so long as the images aren't too big.
 
-### Adding new header images
+## Adding new header images
 
 If you add a new header image, you'll need to be sure of a few things:
 1. Resolution
@@ -21,7 +21,7 @@ If you add a new header image, you'll need to be sure of a few things:
 
     This is the boring part. At the bottom of *every HTML page*, i.e. all the pages in the home directory and `/_layouts/default.html`, you need to add the name of the new photo. e.g. `const images =  ['boulder.JPG', 'boulder-2.JPG'];` -> `const images =  ['boulder.JPG', 'boulder-2.JPG', 'my-new-pic.JPG'];`
 
-### Adding new posts
+## Adding new posts
 
 Thanks to Jekyll, adding posts is simple.
 1. Create a `.md` file in `/_posts/`
