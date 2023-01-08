@@ -64,7 +64,7 @@ Thanks to Jekyll, adding posts is simple and you can (theoretically) do everythi
     
 ## Committee page
 
-Each committee mamber should have a square photo (i.e. width = height) added to the `/img/committee/` directory. They should be in the JPEG file format, and should be named after the position name (see the current ones: `president.jpeg` for Pres, `qm.jpeg` for Quartermaster etc).
-Keep the blurms short and write them, along with the nakes, directly into the `committee.html` page (starting from line 26).
+Each committee member should have a square photo (i.e. width = height) added to the `/img/committee/` directory. They should be in the JPEG file format, and should be named after the position name (see the current ones: `president.jpeg` for Pres, `qm.jpeg` for Quartermaster etc).
+Keep the blurbs short and write them, along with the names, directly into the `committee.html` page (starting from line 26).
 
 Site originally made by J Howells (Equipment Officer), Christmas 2022.
