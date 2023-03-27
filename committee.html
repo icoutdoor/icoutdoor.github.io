@@ -22,62 +22,18 @@
 
         <main style="text-align: center;">
             <h1>Meet the Committee</h1>
+
+            {% for member in site.committee %}
             <tile>
                 <tile-txt>
-                    <div class="tile-head">Baptiste</div>
-                    <div class="tile-sub">President</div>
-                    <p>Hey guys, I’m Baptiste, also known as Le Président (yes I’m French, love cheese and am president of the club). I’ll be around a lot with you guys when climbing in London and on trips too. I’m also interested in biking, sailing and swimming. I’m very approachable and try my best to be funny so feel free to come talk to me at any time!</p>
+                    <div class="tile-head">{{ member.name }}</div>
+                    <div class="tile-sub">{{ member.position }}</div>
+                    <p>{{ member.blurb }}</p>
                 </tile-txt>
-                <img src="img/committee/president.jpeg">
+                <img src="/img/committee/{{member.img}}">
             </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">Luke</div>
-                    <div class="tile-sub">Treasurer</div>
-                    <p>Hey, I’m Luke and I’m the treasurer for this year. I’m a 3rd year EEE student and enjoy hiking and climbing as well as the other activities we do in the outdoor club. I’m looking forward to meeting the club members for this year and going on trips to some amazing places!</p>
-                </tile-txt>
-                <img src="img/committee/treasurer.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">Evan</div>
-                    <div class="tile-sub">Secretary</div>
-                    <p>Hello I'm Evan, a 3rd year biochem student. I love hiking, climbing and kayaking; I like the outdoors and sports in general. I've been climbing for a year now but don't ask me to lead climb because I'm terrified of heights. I devour cheese in great quantities. Never say 'olive oil' or 'wallet' around me; these words are banned.</p>
-                </tile-txt>
-                <img src="img/committee/secretary.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">James</div>
-                    <div class="tile-sub">Stores & Catering</div>
-                    <p>Hi, I’m James. I’m a third-year Design Engineer, and this year’s equipment officer for the club! As well as coming to as many sessions and trips as I can, that means I look after all the equipment we have in stores - so if you need to borrow anything we might have (ice axes to spoons), or anything we don’t have (I can buy it!) let me know :)</p>
-                </tile-txt>
-                <img src="img/committee/stores.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">Avyay</div>
-                    <div class="tile-sub">Social Secretary</div>
-                    <p>Hey everyone! I'm a second year Design Engineering student with a knack for climbing trees and having dumb and dangerous ideas. Ironically, my job is to make sure everyone in the club is safe and having fun, so let's see how that goes 😂. On a serious note though, looking forward to meeting everyone and having a blast this year!</p>
-                </tile-txt>
-                <img src="img/committee/social.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">Jackie</div>
-                    <div class="tile-sub">Webmaster</div>
-                    <p>Hello! I'm Jackie and I'm the webmaster of the club this year. I am currently a second year maths student. I enjoy all types of outdoor adventures, especially climbing and I am looking forward to more outdoor climbing this year.</p>
-                </tile-txt>
-                <img src="img/committee/webmaster.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">Justin</div>
-                    <div class="tile-sub">Quartermaster</div>
-                    <p>Quartermaster, peace-sign enthusiast, bouldering pleb and a lowly 6K daily steps average. Hope y’all have a great time with Outdoor!</p>
-                </tile-txt>
-                <img src="img/committee/qm.jpeg">
-            </tile>
+            {% endfor %}
+
         </main>
 
         <footer>
