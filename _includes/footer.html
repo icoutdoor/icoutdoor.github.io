@@ -1,0 +1,17 @@
+        <footer>
+            <img src="img/logo-blue.png" style="height: 2vw; padding: 2vw; float: left;">
+            © Outdoor Club 2022. Coded by J Howells, hosted by GitHub.
+        </footer>
+
+        <script>
+            Array.prototype.random = function () {
+                return this[Math.floor((Math.random()*this.length))];
+            }
+
+            const header = document.getElementsByClassName('head-img')[0];
+            const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
+
+            header.src = 'img/headers/' + images.random();
+        </script>
+    </body>
+</html>
