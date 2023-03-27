@@ -1,3 +1,6 @@
+---
+# Blank front matter for Jekyll
+---
 <!doctype html>
 <html lang="en-gb">
     <head>
@@ -23,46 +26,20 @@
 
         <main style="text-align: center;">
             <h1>What's On</h1>
+
+            {% for event in site.events %}
             <event>
                 <div style="overflow: hidden; margin-bottom: 4%;">
-                    <div class="name">Ethos Session</div>
+                    <div class="name">{{ event.name }}</div>
                     <div class="dnt">
-                        <div class="date">Every Thursday</div>
-                        <div class="time">6-8pm</div>
+                        <div class="date">{{ event.date }}</div>
+                        <div class="time">{{ event.time }}</div>
                     </div>
                 </div>
-                <div class="detail">Come along to Ethos every Thursday of term-time for super-cheap top rope, lead climbing and bouldering. £2 for Club members, £4 for non-members.</div>
+                <div class="detail">{{ event.description }}</div>
             </event>
-            <event>
-                <div style="overflow: hidden; margin-bottom: 4%;">
-                    <div class="name">RavensWall Session</div>
-                    <div class="dnt">
-                        <div class="date">Alternate Mondays</div>
-                        <div class="time">6-8pm</div>
-                    </div>
-                </div>
-                <div class="detail">We get discounted entry to RavensWall (and other LCC centres) for £8.50 - £7 off full price with shoe hire. The deal applies at all off-peak times but we go as a Club every other week.</div>
-            </event>
-            <event>
-                <div style="overflow: hidden; margin-bottom: 4%;">
-                    <div class="name">Westway Session</div>
-                    <div class="dnt">
-                        <div class="date">Alternate Mondays</div>
-                        <div class="time">6-8pm</div>
-                    </div>
-            </div>
-                <div class="detail">When we don't go to RavensWall, we go to Westway on Mondays. With over 150 rope lines, it is a great place to get some proper top-rope and lead climbing done, with some bouldering too.</div>
-            </event>
-            <event>
-                <div style="overflow: hidden; margin-bottom: 4%;">
-                    <div class="name">Snowdonia Trip</div>
-                    <div class="dnt">
-                        <div class="date">20-22 Jan</div>
-                        <div class="time">Meet 4:30pm</div>
-                    </div>
-            </div>
-                <div class="detail">We're heading back to Snowdonia for the first trip this term. Join us for lots of climbing and hiking, and possibly som,e trail running too.</div>
-            </event>
+            {% endfor %}
+            
         </main>
 
         <footer>
