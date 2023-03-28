@@ -420,6 +420,15 @@ event {
 	border-radius: 5px;
 }
 
+event:hover {
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+
 event .name {
 	float: left;
 	font-family: Arial, sans-serif;
