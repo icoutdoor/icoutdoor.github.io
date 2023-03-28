@@ -1,8 +1,8 @@
 :root {
-	--off-white: rgb(252, 249, 247);
-	--the-dark: rgb(33, 15, 5);
-	--the-accent: rgb(266, 113, 48);
-	--the-grey: rgb(250, 241, 237);
+	--off-white: #fdf9fc;
+	--the-dark: #191f25;
+	--the-accent: #c3251c;
+	--the-grey: #e5e5e5;
 }
 
 /* 1. Generals */
@@ -134,9 +134,9 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: var(--the-dark);
-	color: var(--the-accent);
-	/* border-bottom: 1px solid var(--the-accent) */
+	background-color: var(--off-white);
+	color: var(--off-white);
+	border-bottom: 1px solid var(--the-accent)
 }
 
 .logo {
@@ -146,46 +146,26 @@ header {
 	left: 5vw;
 }
 
-
 .head-img {
 	width: 100%;
-	animation-name: fade-head-grow;
-    animation-duration: 1s;
-}
-
-.head-img-narrow {
-	width: 100%;
-}
-
-@keyframes fade-head-grow {
-    0% {height: 13.471vw; opacity: 0;}
-    20% {height: 42.139vw; opacity: 0;}
-	100% {opacity: 1;}
-}
-
-@keyframes fade-head-shrink {
-    0% {height: 42.139vw; opacity: 0;}
-    20% {height: 13.471vw; opacity: 0;}
-	100% {opacity: 1;}
-}
-
-.navbar {
-	/* height: 5vw; */
-    /* padding-top: 0; */
-	text-align: center;
 }
 
 header a {
-	color: var(--the-accent);
+	color: var(--off-white);
     text-decoration: none;
 }
 
 header a:hover {
-	color: var(--off-white);
+	color: var(--the-accent);
 	cursor: pointer;
 }
 
+.navbar {
+	text-align: center;
+}
+
 .navbar a {
+	color: var(--the-accent);
 	width: 20%;
 	min-width: 100px;
 	text-align: center;
@@ -193,10 +173,9 @@ header a:hover {
 	margin-right: 15px;
 }
 
-@keyframes fade-head {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-	100% {opacity: 1;}
+.navbar a:hover {
+	color: var(--the-dark);
+	cursor: pointer;
 }
 
 /* 3. Main */
