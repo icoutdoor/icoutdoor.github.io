@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weekend Trip December 2013 - Snowdonia"
+title: "Snowdonia Weekend - Dec 2013"
 date: 2013-12-12
 feat-img: dec2013.jpeg
 ---
