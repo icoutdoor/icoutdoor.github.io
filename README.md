@@ -24,7 +24,7 @@ Thanks to Jekyll, adding posts is simple and you can (theoretically) do everythi
     ---
     layout: post
     title: "NAME OF POST HERE"
-    date: DATE HERE: YYYY-MM-DD
+    date: DATE IN YYYY-MM-DD
     feat-img: FEATURED (MAIN) IMAGE, e.g. "fun-trip-2022.jpg"
     ---
     ```
@@ -48,7 +48,7 @@ Thanks to Jekyll, adding posts is simple and you can (theoretically) do everythi
 4. Images
 
     Add any images you want to `/img/posts/`. To add them into the post use `![Image Alt Text](../../../img/posts/FILENAME_HERE)`.
-    The `../../../img/posts/` **IS** important
+    The `../../../img/posts/` **IS** important. Please name them something sensible so it doesn't get too chaotic!
 
 ## Events
 
@@ -75,7 +75,7 @@ The important things are:
 ## Committee page
 
 Each committee member should have a square photo (i.e. width = height) added to the `/img/committee/` directory. They should be in the JPEG file format, and should be named after the position name (see the current ones: `president.jpeg` for Pres, `qm.jpeg` for Quartermaster etc).
-You can then update the names and blurbs (keep them short) of the committee members in the `/_committee` folder. Don't change the filenames or any of the metadata in the files, only change the `name:` and `blurb:` fields. The committee page should update automatically.
+You can then update the names and blurbs (keep them short) of the committee members in the `/_committee/` folder. Don't change the filenames or any of the metadata in the files, only change the `name:` and `blurb:` fields. The committee page should update automatically.
 
 ## Adding new header images
 
