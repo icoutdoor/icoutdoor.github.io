@@ -83,9 +83,11 @@ If you add a new header image, you'll need to do a few things:
 1. Resolution
 
     Make sure the image aspect ratio is **exactly** 2048 × 863 landscape. If it's any taller / shorter it messes with things. Ideally keep it to that resolution, but so long as the aspect ratio is the same it should be OK.
+
 2. Location
 
     Save the new image in `/img/headers`.
+
 3. Updating
 
     You now need to add the header to the list of headers. Go to `/_includes/footer.html`, and find `const images` (it's currently on line 12, but this might've changed if the file has been updated.)
