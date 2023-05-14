@@ -17,7 +17,7 @@ Thanks to Jekyll, adding posts is simple and you can (theoretically) do everythi
     Filename must be in the format `YYYY-MM-DD-Title.md`
     The title can be anything sensible but the date is important to make sure the posts are displayed in the right order.
 
-2. Add the front matter.
+2. Add the front matter. This is the information Jekyll needs to know that you're trying to make a post, and display it correctly.
 
     This needs to look like this:
     ```
