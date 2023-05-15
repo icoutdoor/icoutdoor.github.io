@@ -1,3 +1,14 @@
+/* 
+1. Generals
+2. Header
+3. Main
+4. Footer
+5. Committee page
+6. Events & Posts
+*/
+
+/* 1. Generals */
+
 :root {
 	--off-white: #fdf9fc;
 	--the-dark: #191f25;
@@ -5,11 +16,11 @@
 	--the-grey: #e5e5e5;
 }
 
-/* 1. Generals */
-
 main h1, h2 {
 	color: var(--the-accent);
 }
+
+/* 2. Header */
 
 header h3 {
 	display: inline-block;
@@ -17,34 +28,63 @@ header h3 {
     margin: 0.5vw;
 }
 
-.button {
-	display: inline-block;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
-
-	height: 30px;
-	line-height: 30px;
-
-	padding-left: 10px;
-	padding-right: 10px;
-
-	border: 2px solid var(--the-dark);
-	border-radius: 17px;
-
-	color: var(--the-dark);
-	font-family: Didot, serif;
-	font-size: large;
+.head-img {
+	width: 100%;
 }
 
-.button:hover {
-	border: 2px solid var(--off-white);
-	color: var(--off-white);
-	background-color: var(--the-accent);
+.navbar {
+	text-align: center;
+}
+
+.navbar a {
+	color: var(--the-accent);
+	width: 20%;
+	min-width: 100px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.navbar a:hover {
+	color: var(--the-dark);
 	cursor: pointer;
 }
 
-/* 1.1 Tiles */
+/* 3. Main */
+
+main {
+	left: 0;
+	width: 95%;
+	padding: 2.5%;
+    padding-top: 0.5%;
+	display: block;
+	overflow: auto;
+}
+
+a {
+	color: var(--the-accent);
+}
+
+a:hover {
+	color: var(--the-dark);
+	cursor: pointer;
+}
+
+/* 4. Footer */
+
+footer {
+	position: relative;
+	background-color: var(--off-white);
+	color: var(--the-accent);
+	font-family: Arial, sans-serif;
+	height: 6em;
+	line-height: 6em;
+	padding-left: 5vw;
+	border-top: 1px solid var(--the-accent)
+}
+
+
+/* 5. Committee page */
 
 tile {
 	border-radius: 10px;
@@ -108,261 +148,8 @@ tile:hover tile-txt {
 	visibility: visible;
 }
 
-/* 2. Header */
 
-.head-img {
-	width: 100%;
-}
-
-.navbar {
-	text-align: center;
-}
-
-.navbar a {
-	color: var(--the-accent);
-	width: 20%;
-	min-width: 100px;
-	text-align: center;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-.navbar a:hover {
-	color: var(--the-dark);
-	cursor: pointer;
-}
-
-/* 3. Main */
-
-main {
-	left: 0;
-	width: 95%;
-	padding: 2.5%;
-    padding-top: 0.5%;
-	display: block;
-	overflow: auto;
-}
-
-a {
-	color: var(--the-accent);
-}
-
-a:hover {
-	color: var(--the-dark);
-	cursor: pointer;
-}
-
- /* 3.1. Projects page */
-
- left {
-	position: relative;
-	float: left;
-	width: 48.75%;
-	min-height: 60vh;
-}
-
-.cbox {
-	height: 50px;
-	border: 1px solid var(--the-dark);
-	border-radius: 5px;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	overflow: hidden;
-}
-
-.cbox h2, h4 {
-	line-height: 0px;
-}
-
-.plus, .minus {
-	text-align: right;
-	line-height: 0px;
-}
-
-.plus:hover, .minus:hover {
-	color: var(--the-dark);
-	cursor: pointer;
-}
-
-.minus {
-	display: none;
-}
-
-hr {
-	border: none;
-	border-top: 0.5px solid var(--the-dark);
-}
-
-.cbox div {
-	border-left: 2px solid var(--the-dark);
-	padding-left: 2%;
-	height: 24px;
-}
-
-.cbox div:hover {
-	border-left: 4px solid var(--the-accent);
-	color: var(--the-accent);
-	padding-left: calc(2% - 2px);
-	cursor: pointer;
-}
-
-.cbox h3 {
-	display:inline;
-	line-height: 24px;
-}
-
-.ooa {
-	color: gray;
-}
-
-.cbox p {
-	vertical-align: top;
-	margin: 0;
-}
-
-right {
-	position: relative;
-	float: right;
-	width: 48.75%;
-	text-align: center;
-}
-
-right .button {
-	position: relative;
-	left: 0;
-	transform: translate(0,0);
-}
-
-.focus {
-	border: 1px solid var(--the-dark);
-	border-radius: 5px;
-	padding: 2.5%;
-	padding-top: 0%;
-	display: none;
-}
-
-.focus img {
-	width: 100%;
-}
-
-/* 3.2. Popups */
-
-popup {
-	display: none;
-	position: fixed;
-	z-index: 5;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.5);
-}
-
-popup:target {
-	display: block;
-}
-
-popup-box {
-	position: absolute;
-	top: 5%;
-	bottom: 5%;
-	left: 5%;
-	right: 5%;
-	background-color: var(--off-white);
-	border-radius: 10px;
-	padding: 30px;
-	overflow-x: scroll;
-	text-align: center;
-}
-
-.back {
-	margin-bottom: 0;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	color: var(--off-white);
-}
-
-.back:hover {
-	cursor: pointer;
-}
-
-popup-box img {
-	width: 100%;
-}
-
-popup-box div img {
-	width: calc(100% + 60px);
-	margin-left:-30px;
-}
-
-popup-box div h2 {
-	position: absolute;
-	top: 20px;
-	left: 50%;
-	transform: translate(-50%, 0);
-	text-align: center;
-}
-
-popup-box h3 {
-	color: var(--the-accent);
-}
-
-popup-box div p {
-	position: absolute;
-	left: 0;
-	transform: translate(0, -68px);
-	margin-left: 20px;
-	margin-right: 20px;
-	text-align: center;
-	color: var(--off-white);
-}
-
-popup-box .button {
-	left: 0;
-	transform: translate(0, 0);
-	margin-right: 5px;
-	margin-left: 5px;
-}
-
-/* 3.3. Portfolio */
-
-.pill {
-	display: inline-block;
-
-	height: 20px;
-	line-height: 20px;
-
-	padding-left: 10px;
-	padding-right: 10px;
-
-	margin-top: -10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	margin-left: 5px;
-
-	border: 2px solid var(--the-dark);
-	border-radius: 12px;
-
-	color: var(--the-dark);
-	font-family: Didot, serif;
-	font-size: medium;
-}
-
-/* 4. Footer */
-
-footer {
-	position: relative;
-	background-color: var(--off-white);
-	color: var(--the-accent);
-	font-family: Arial, sans-serif;
-	height: 6em;
-	line-height: 6em;
-	padding-left: 5vw;
-	border-top: 1px solid var(--the-accent)
-}
-
-/* 5. Events */
+/* 6. Events & Posts */
 
 event {
 	display: inline-block;
