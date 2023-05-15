@@ -11,6 +11,7 @@ main {
 	font-family: Trebuchet MS, sans-serif;
 	text-align: justify;
 	margin: 0;
+	width: 80vw;
 	padding: 5vw;
 	padding-top: 3vh;
 	padding-bottom: 4vh;
