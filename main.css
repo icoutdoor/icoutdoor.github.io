@@ -89,7 +89,7 @@ footer {
 tile {
 	border-radius: 10px;
 	width: 23%;
-	min-width: 250px;
+	min-width: 290px;
 	display: inline-block;
 	margin: 2%;
 
@@ -111,7 +111,7 @@ tile-txt {
 	position: absolute;
 	width: 100%;
 	max-width: 23vw;
-	min-width: 310px;
+	min-width: 290px;
 	height: 23vw;
 	z-index: 2;
 	color: var(--off-white);
