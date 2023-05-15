@@ -402,8 +402,8 @@ footer {
 	background-color: var(--off-white);
 	color: var(--the-accent);
 	font-family: Arial, sans-serif;
-	height: 6vw;
-	line-height: 6vw;
+	height: 6em;
+	line-height: 6em;
 	padding-left: 5vw;
 	border-top: 1px solid var(--the-accent)
 }

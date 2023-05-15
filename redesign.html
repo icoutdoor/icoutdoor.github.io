@@ -1,21 +1,19 @@
----
-# Blank front matter for Jekyll
----
 <!doctype html>
 <html lang="en-gb">
     <head>
         <meta charset="utf-8">
         <title>Outdoor Club</title>
-        <link rel="shortcut icon" href="/img/logo.png">
-        <link rel="stylesheet" href="/main.css">
+        <link rel="shortcut icon" href="img/logo.png">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="pages.css">
         <!-- <link media="only screen and (max-width: 1000px)" href="small-device.css"/> -->
     </head>
 
     <body>
         <header>
-            <img class="head-img" src="/img/headers/boulder.JPG">
-            <img class="logo" src="/img/logo.png">
-            <a href="/index.html" class="site-title"><h1>IC OUTDOOR CLUB</h1></a>
+            <!-- <img class="head-img" src="img/headers/boulder.JPG"> -->
+            <img class="logo" src="img/logo.png">
+            <a href="index.html"><h1>IC OUTDOOR CLUB</h1></a>
             <div class="navbar">
                 <a href="/about.html"><h3>About Us</h3></a>
                 <a href="/committee.html"><h3>Meet the Committee</h3></a>
@@ -33,7 +31,7 @@
         </main>
 
         <footer>
-            <img src="/img/logo-blue.png" style="height: 2vw; padding: 2vw; float: left;">
+            <img src="img/logo-blue.png" style="height: 2em; padding: 2em; float: left;">
             © Outdoor Club 2022. Coded by J Howells, hosted by GitHub.
         </footer>
 
@@ -42,10 +40,11 @@
                 return this[Math.floor((Math.random()*this.length))];
             }
 
-            const header = document.getElementsByClassName('head-img')[0];
+            const body = document.getElementsByTagName('body')[0];
             const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
 
-            header.src = '/img/headers/' + images.random();
+            body.style = "background-image: url('img/headers/" + images.random(); + "'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;"
+            // 'img/headers/' + images.random();
         </script>
     </body>
 </html>
