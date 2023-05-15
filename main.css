@@ -7,28 +7,8 @@
 
 /* 1. Generals */
 
-body {
-	background-color: var(--off-white);
-	font-family: Trebuchet MS, sans-serif;
-	text-align: justify;
-    margin: 0;
-}
-
-h1, h2, h3, h4 {
-	font-family: Arial, sans-serif;
-}
-
 main h1, h2 {
 	color: var(--the-accent);
-}
-
-header h1 {
-	position: absolute;
-	top: 20vw;
-	width: 100vw;
-	text-align: center;
-	transform: translate(0, -50%);
-	font-size: calc(3vw + 50px);
 }
 
 header h3 {
@@ -130,34 +110,8 @@ tile:hover tile-txt {
 
 /* 2. Header */
 
-header {
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: var(--off-white);
-	color: var(--off-white);
-	border-bottom: 1px solid var(--the-accent)
-}
-
-.logo {
-	width: 15%;
-	position: absolute;
-	top: 3vh;
-	left: 5vw;
-}
-
 .head-img {
 	width: 100%;
-}
-
-header a {
-	color: var(--off-white);
-    text-decoration: none;
-}
-
-header a:hover {
-	color: var(--the-accent);
-	cursor: pointer;
 }
 
 .navbar {
