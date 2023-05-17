@@ -1,27 +1,30 @@
-h1 {
-    font-size: xxx-large;
-}
+@media handheld,
+screen and (max-width: 720px) {
+        h1 {
+        font-size: xxx-large;
+    }
 
-main {
-    font-size: xx-large;
-}
+    main {
+        font-size: xx-large;
+    }
 
-event {
-    min-width: 80%;
-}
+    event {
+        min-width: 80%;
+    }
 
-event .name {
-	font-size: xxx-large;
-}
+    event .name {
+        font-size: xxx-large;
+    }
 
-event .date {
-	font-size: xx-large;
-}
+    event .date {
+        font-size: xx-large;
+    }
 
-event .time {
-	font-size: x-large;
-}
+    event .time {
+        font-size: x-large;
+    }
 
-event .detail {
-	font-size: xx-large;
+    event .detail {
+        font-size: xx-large;
+    }
 }
