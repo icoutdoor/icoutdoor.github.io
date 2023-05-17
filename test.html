@@ -6,12 +6,10 @@
         <link rel="shortcut icon" href="img/logo.png">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="pages.css">
-        <!-- <link media="only screen and (max-width: 1000px)" href="small-device.css"/> -->
     </head>
 
     <body>
         <header>
-            <!-- <img class="head-img" src="img/headers/boulder.JPG"> -->
             <img class="logo" src="img/logo.png">
             <a href="index.html"><h1>IC OUTDOOR CLUB</h1></a>
             <div class="navbar">
@@ -22,42 +20,49 @@
             </div>
         </header>
 
+        <style>
+            event {
+                width: 35%;
+            }
+        </style>
+
         <main style="text-align: center;">
-            <h1>Meet the Committee</h1>
-
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">{{ member.name }}</div>
-                    <div class="tile-sub">{{ member.position }}</div>
-                    <p>{{ member.blurb }}</p>
-                </tile-txt>
-                <img src="img/committee/president.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">{{ member.name }}</div>
-                    <div class="tile-sub">{{ member.position }}</div>
-                    <p>{{ member.blurb }}</p>
-                </tile-txt>
-                <img src="img/committee/president.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">{{ member.name }}</div>
-                    <div class="tile-sub">{{ member.position }}</div>
-                    <p>{{ member.blurb }}</p>
-                </tile-txt>
-                <img src="img/committee/president.jpeg">
-            </tile>
-            <tile>
-                <tile-txt>
-                    <div class="tile-head">{{ member.name }}</div>
-                    <div class="tile-sub">{{ member.position }}</div>
-                    <p>{{ member.blurb }}</p>
-                </tile-txt>
-                <img src="img/committee/president.jpeg">
-            </tile>
-
+            <h1>Trip Reports</h1>
+            <a href="{{ post.url }}" style="text-decoration: none;">
+                <event>
+                    <img style="width: 100%;" src="img/posts/spring2018.png">
+                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
+                </event>
+            </a>
+            <a href="{{ post.url }}" style="text-decoration: none;">
+                <event>
+                    <img style="width: 100%;" src="img/posts/winter2022.jpg">
+                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
+                </event>
+            </a>
+            <a href="{{ post.url }}" style="text-decoration: none;">
+                <event>
+                    <img style="width: 100%;" src="img/posts/summer2015.jpeg">
+                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
+                </event>
+            </a>
+            <a href="{{ post.url }}" style="text-decoration: none;">
+                <event>
+                    <img style="width: 100%;" src="img/posts/easter2015.jpeg">
+                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
+                </event>
+            </a>
+            <a href="{{ post.url }}" style="text-decoration: none;">
+                <event>
+                    <img style="width: 100%;" src="img/posts/dec2013.jpeg">
+                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
+                    <div class="detail">{{ post.date | date_to_string }}</div>
+                </event>
+            </a>
         </main>
 
         <footer>

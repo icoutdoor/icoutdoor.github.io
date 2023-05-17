@@ -148,14 +148,13 @@ tile:hover tile-txt {
 	visibility: visible;
 }
 
-
 /* 6. Events & Posts */
 
 event {
 	display: inline-block;
 	width: 25%;
 	min-width: 300px;
-	padding: 2%;
+	padding: max(2%, 17px);
 	margin: 1%;
 	background-color: var(--the-grey);
 	border-radius: 5px;
@@ -178,16 +177,17 @@ event .name {
 	width: 60%;
 }
 
+event img {
+	width: 100%;
+}
+
 event .dnt {
 	float: right;
 	padding: 2%;
 	border-radius: 5px;
 	width: 35%;
 	background-color: var(--the-accent);
-}
-
-event img {
-	width: 100%;
+	color: var(--the-light);
 }
 
 event .date {

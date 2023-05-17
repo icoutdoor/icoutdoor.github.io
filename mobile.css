@@ -1,0 +1,15 @@
+main {
+    font-size: large;
+}
+
+event {
+    min-width: 80%;
+}
+
+event .name {
+	font-size: xx-large;
+}
+
+event .detail {
+	font-size: large;
+}
