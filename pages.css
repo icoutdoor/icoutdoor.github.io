@@ -2,6 +2,7 @@ body {
 	margin-top: 10vh;
 	margin-left: 10vw;
 	margin-right: 10vw;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 
 main {
@@ -9,9 +10,10 @@ main {
 	font-family: Trebuchet MS, sans-serif;
 	text-align: justify;
 	margin: 0;
-	padding: 5vw;
+	padding: 50px;
 	padding-top: 3vh;
 	padding-bottom: 4vh;
+	width: calc(100% - 100px);
 }
 
 h1, h2, h3, h4 {
@@ -25,7 +27,13 @@ header {
 	margin: 0;
 	background-color: var(--off-white);
 	color: var(--off-white);
-	border-bottom: 1px solid var(--the-accent)
+	border-bottom: 1px solid var(--the-accent);
+	border-top-right-radius: 5px;
+}
+
+footer {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 .logo {
