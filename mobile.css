@@ -1,5 +1,5 @@
 @media handheld,
-screen and (max-width: 720px) {
+screen and (max-width: 1000px) {
         h1 {
         font-size: xxx-large;
     }
