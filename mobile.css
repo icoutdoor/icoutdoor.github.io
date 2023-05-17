@@ -1,5 +1,9 @@
+h1 {
+    font-size: xxx-large;
+}
+
 main {
-    font-size: large;
+    font-size: xx-large;
 }
 
 event {
@@ -7,9 +11,17 @@ event {
 }
 
 event .name {
+	font-size: xxx-large;
+}
+
+event .date {
 	font-size: xx-large;
 }
 
+event .time {
+	font-size: x-large;
+}
+
 event .detail {
-	font-size: large;
+	font-size: xx-large;
 }
