@@ -2,85 +2,49 @@
 <html lang="en-gb">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport">
         <title>Outdoor Club</title>
         <link rel="shortcut icon" href="img/logo.png">
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="pages.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="mobile.css">
     </head>
 
     <body>
         <header>
-            <img class="logo" src="img/logo.png">
-            <a href="index.html"><h1>IC OUTDOOR CLUB</h1></a>
+            <img class="head-img">
+            <img class="logo" src="/img/logo.png">
+            <a href="/index.html" class="site-title"><h1>IC OUTDOOR CLUB</h1></a>
             <div class="navbar">
-                <a href="about.html"><h3>About Us</h3></a>
-                <a href="committee.html"><h3>Meet the Committee</h3></a>
-                <a href="events.html"><h3>What's On</h3></a>
-                <a href="trips.html"><h3>Trip Reports</h3></a>
+                <a href="/about.html"><h3>About Us</h3></a>
+                <a href="/committee.html"><h3>Meet the Committee</h3></a>
+                <a href="/events.html"><h3>What's On</h3></a>
+                <a href="/trips.html"><h3>Trip Reports</h3></a>
             </div>
         </header>
 
-        <style>
-            event {
-                width: 35%;
-            }
-        </style>
-
         <main style="text-align: center;">
-            <h1>Trip Reports</h1>
-            <a href="{{ post.url }}" style="text-decoration: none;">
-                <event>
-                    <img style="width: 100%;" src="img/posts/spring2018.png">
-                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
-                    <div class="detail">{{ post.date | date_to_string }}</div>
-                </event>
-            </a>
-            <a href="{{ post.url }}" style="text-decoration: none;">
-                <event>
-                    <img style="width: 100%;" src="img/posts/winter2022.jpg">
-                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
-                    <div class="detail">{{ post.date | date_to_string }}</div>
-                </event>
-            </a>
-            <a href="{{ post.url }}" style="text-decoration: none;">
-                <event>
-                    <img style="width: 100%;" src="img/posts/summer2015.jpeg">
-                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
-                    <div class="detail">{{ post.date | date_to_string }}</div>
-                </event>
-            </a>
-            <a href="{{ post.url }}" style="text-decoration: none;">
-                <event>
-                    <img style="width: 100%;" src="img/posts/easter2015.jpeg">
-                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
-                    <div class="detail">{{ post.date | date_to_string }}</div>
-                </event>
-            </a>
-            <a href="{{ post.url }}" style="text-decoration: none;">
-                <event>
-                    <img style="width: 100%;" src="img/posts/dec2013.jpeg">
-                    <div class="name" style="float: none; width: 100%;">{{ post.title }}</div>
-                    <div class="detail">{{ post.date | date_to_string }}</div>
-                </event>
-            </a>
+            <h1>About the Club</h1>
+            <p>Outdoor is the best outdoor club at imperial :)</p>
+            <p>We combine several other clubs into one, with climbing (indoor and out), hiking and scrambling as our main activities. We also have some mountain bikes, rafts, and winter equipment and do other activities as often as we can :)</p>
+            <p>See useful links here:</p>
+            <a href="https://linktr.ee/icoutdoor">https://linktr.ee/icoutdoor</a>
         </main>
 
         <footer>
-            <img src="img/logo-blue.png" style="height: 2em; padding: 2em; float: left;">
-            © Outdoor Club 2022. Coded by J Howells, hosted by GitHub. If you're here to edit or maintain the site <a href="https://github.com/icoutdoor/icoutdoor.github.io/blob/main/README.md">here</a> is the info.
+            <img src="/img/logo-circle.png" style="height: 2vw; padding: 2vw; float: left;">
+            © Outdoor Club 2022. Coded by J Howells, hosted by GitHub.
         </footer>
-        
+
         <script>
             Array.prototype.random = function () {
                 return this[Math.floor((Math.random()*this.length))];
             }
-        
-            const body = document.getElementsByTagName('body')[0];
+
+            const header = document.getElementsByClassName('head-img')[0];
             const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
-        
-            body.style = "background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-image: url('img/headers/" + images.random(); + "');"
-            // 'img/headers/' + images.random();
+
+            header.src = 'img/headers/' + images.random();
         </script>
-        </body>
-        </html>
-        
+    </body>
+</html>

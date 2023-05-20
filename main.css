@@ -30,6 +30,8 @@ header h3 {
 
 .head-img {
 	width: 100%;
+	min-height: 50vh;
+	object-fit: cover;
 }
 
 .navbar {
