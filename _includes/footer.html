@@ -8,10 +8,15 @@
         return this[Math.floor((Math.random()*this.length))];
     }
 
-    const body = document.getElementsByTagName('body')[0];
+    const img_loc = document.getElementById('big-img');
     const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
 
-    body.style = "background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-image: url('/img/headers/" + images.random(); + "');"
+    if (img_loc.class[0] == "head-img") {
+        img_loc.src = '/img/headers/' + images.random();
+    } else {
+        img_loc.style = "background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-image: url('/img/headers/" + images.random(); + "');";
+    }
+
 </script>
 </body>
 </html>

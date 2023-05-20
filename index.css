@@ -11,11 +11,11 @@ h1, h2, h3, h4 {
 
 header h1 {
 	position: absolute;
-	top: 20vw;
+	top: max(20vw, 25vh);
 	width: 100vw;
 	text-align: center;
 	transform: translate(0, -50%);
-	font-size: calc(3vw + 50px);
+	font-size: calc(3vw + 60px);
 }
 
 header {
