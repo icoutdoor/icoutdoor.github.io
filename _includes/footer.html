@@ -11,7 +11,7 @@
     const img_loc = document.getElementById('big-img');
     const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
 
-    if (img_loc.class[0] == "head-img") {
+    if (img_loc.class) {
         img_loc.src = '/img/headers/' + images.random();
     } else {
         img_loc.style = "background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-image: url('/img/headers/" + images.random(); + "');";

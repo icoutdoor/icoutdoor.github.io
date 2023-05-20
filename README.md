@@ -82,7 +82,7 @@ You can then update the names and blurbs (keep them short) of the committee memb
 If you add a new header image, you'll need to do a few things:
 1. Resolution
 
-    Make sure the image aspect ratio is **exactly** 2048 × 863 landscape. If it's any taller / shorter it messes with things. Ideally keep it to that resolution, but so long as the aspect ratio is the same it should be OK.
+    The header image should be reasonably good quality and shouldn't be too wide/tall (in terms of aspect ratio the ones in the folder now are kinda the limit - if you want to use a panorama crop the sides off to make it less elongated).
 
 2. Location
 
