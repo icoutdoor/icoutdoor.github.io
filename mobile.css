@@ -42,6 +42,6 @@ screen and (max-width: 1000px) {
     }
 
     tile p {
-        font-size: x-large;
+        font-size: small;
     }
 }
