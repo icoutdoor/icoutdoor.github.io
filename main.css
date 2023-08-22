@@ -194,10 +194,12 @@ event .dnt {
 
 event .date {
 	font-size: large;
+	color: var(--the-light);
 }
 
 event .time {
 	font-size: small;
+	color: var(--the-light);
 }
 
 event .detail {

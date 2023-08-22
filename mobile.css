@@ -27,4 +27,17 @@ screen and (max-width: 1000px) {
     event .detail {
         font-size: xx-large;
     }
+
+    tile:hover {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+    }
 }

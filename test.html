@@ -1,27 +1,26 @@
 <!doctype html>
-<html lang="en-gb">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport">
-        <title>Outdoor Club</title>
-        <link rel="shortcut icon" href="img/logo.png">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="mobile.css">
-    </head>
-
-    <body>
-        <header>
-            <img class="head-img">
-            <img class="logo" src="/img/logo.png">
-            <a href="/index.html" class="site-title"><h1>IC OUTDOOR CLUB</h1></a>
-            <div class="navbar">
-                <a href="/about.html"><h3>About Us</h3></a>
-                <a href="/committee.html"><h3>Meet the Committee</h3></a>
-                <a href="/events.html"><h3>What's On</h3></a>
-                <a href="/trips.html"><h3>Trip Reports</h3></a>
-            </div>
-        </header>
+        <html lang="en-gb">
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport">
+                <title>Outdoor Club</title>
+                <link rel="shortcut icon" href="img/logo.png">
+                <link rel="stylesheet" href="main.css">
+                <link rel="stylesheet" href="pages.css">
+                <link rel="stylesheet" href="mobile.css">
+            </head>
+        
+            <body id="big-img">
+                <header>
+                    <img class="logo" src="img/logo.png">
+                    <a href="index.html"><h1>IC OUTDOOR CLUB</h1></a>
+                    <div class="navbar">
+                        <a href="/about.html"><h3>About Us</h3></a>
+                        <a href="/committee.html"><h3>Meet the Committee</h3></a>
+                        <a href="/events.html"><h3>What's On</h3></a>
+                        <a href="/trips.html"><h3>Trip Reports</h3></a>
+                    </div>
+                </header>
 
         <main style="text-align: center;">
             <h1>About the Club</h1>
@@ -32,19 +31,25 @@
         </main>
 
         <footer>
-            <img src="/img/logo-circle.png" style="height: 2vw; padding: 2vw; float: left;">
-            © Outdoor Club 2022. Coded by J Howells, hosted by GitHub.
+            <img src="/img/logo-circle.png" style="height: 2em; padding: 2em; float: left;">
+            © Outdoor Club 2022. Coded by J Howells, hosted by GitHub. If you're here to edit or maintain the site <a href="https://github.com/icoutdoor/icoutdoor.github.io/blob/main/README.md">here</a> is the info.
         </footer>
-
+        
         <script>
             Array.prototype.random = function () {
                 return this[Math.floor((Math.random()*this.length))];
             }
-
-            const header = document.getElementsByClassName('head-img')[0];
+        
+            const img_loc = document.getElementById('big-img');
             const images =  ['boulder.JPG', 'boulder-2.JPG', 'tryfan.jpg'];
-
-            header.src = 'img/headers/' + images.random();
+        
+            if (img_loc.class) {
+                img_loc.src = 'img/headers/' + images.random();
+            } else {
+                img_loc.style = "background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-image: url('img/headers/" + images.random(); + "');";
+            }
+        
         </script>
-    </body>
-</html>
+        </body>
+        </html>
+        
