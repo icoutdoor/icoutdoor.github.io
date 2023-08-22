@@ -30,12 +30,12 @@ screen and (max-width: 1000px) {
 
     tile:hover {
         position: absolute;
+        z-index: 100;
         top: 50vh;
         left: 50vw;
-        transform: translate(-50%, -50%);
-        -webkit-transform: scale(2);
-        -ms-transform: scale(2);
-        transform: scale(2);
+        transform: translate(-50%, -50%) scale(2);
+        -webkit-transform: translate(-50%, -50%) scale(2);
+        -ms-transform: translate(-50%, -50%) scale(2);
         transition: all 0.4s ease;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
