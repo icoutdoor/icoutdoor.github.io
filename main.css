@@ -20,7 +20,40 @@ main h1, h2 {
 	color: var(--the-accent);
 }
 
+body {
+	margin-top: 10vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+main {
+	background-color: var(--off-white);
+	font-family: Trebuchet MS, sans-serif;
+	text-align: justify;
+	margin: 0;
+	padding: 50px;
+	padding-top: 3vh;
+	padding-bottom: 4vh;
+	width: calc(100% - 100px);
+}
+
+h1, h2, h3, h4 {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
 /* 2. Header */
+
+header {
+	margin: 0;
+	background-color: var(--off-white);
+	color: var(--off-white);
+	border-bottom: 1px solid var(--the-accent);
+	border-top-right-radius: 5px;
+}
 
 header h3 {
 	display: inline-block;
@@ -29,9 +62,26 @@ header h3 {
 }
 
 .head-img {
-	width: 100%;
-	min-height: 50vh;
+	min-width: 100vw;
+	min-height: 100vh;
 	object-fit: cover;
+}
+
+header a {
+	color: var(--the-accent);
+    text-decoration: none;
+}
+
+header a:hover {
+	color: var(--the-dark);
+	cursor: pointer;
+}
+
+header h1 {
+	text-align: center;
+	font-size: calc(3vw + 60px);
+	padding-left: 8vw;
+	padding-right: 8vw;
 }
 
 .navbar {
@@ -50,6 +100,15 @@ header h3 {
 .navbar a:hover {
 	color: var(--the-dark);
 	cursor: pointer;
+}
+
+.logo {
+	width: 15vw;
+	position: absolute;
+	top: 10vh;
+	left: 10vw;
+	transform: translate(-40%, -25%);
+	min-width: 150px;
 }
 
 /* 3. Main */
@@ -83,6 +142,9 @@ footer {
 	line-height: 6em;
 	padding-left: 5vw;
 	border-top: 1px solid var(--the-accent);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 10vh;
 }
 
 
