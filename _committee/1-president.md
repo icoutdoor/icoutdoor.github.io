@@ -2,6 +2,6 @@
 position: "President"
 img: "president.jpeg"
 
-name: "Baptiste"
-blurb: "Hey guys, I’m Baptiste, also known as Le Président (yes I’m French, love cheese and am president of the club). I’ll be around a lot with you guys when climbing in London and on trips too. I’m also interested in biking, sailing and swimming. I’m very approachable and try my best to be funny so feel free to come talk to me at any time!"
+name: "Luke"
+blurb: "Hey, I’m Luke and I’m the president for this year. I’m a 4rd year EEE student and enjoy hiking and climbing as well as the other activities we do in the outdoor club. I’m looking forward to meeting the club members for this year and going on trips to some amazing places!"
 ---

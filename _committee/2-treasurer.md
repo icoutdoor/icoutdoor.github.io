@@ -2,6 +2,6 @@
 position: "Treasurer"
 img: "treasurer.jpeg"
 
-name: "Luke"
-blurb: "Hey, I’m Luke and I’m the treasurer for this year. I’m a 3rd year EEE student and enjoy hiking and climbing as well as the other activities we do in the outdoor club. I’m looking forward to meeting the club members for this year and going on trips to some amazing places!"
+name: "Ashley"
+blurb: "Hi! I'm Ashley. I'm a second-year Aero student and am super excited to be treasurer this year. I'm an adventure enthusiast - when I'm not crunching numbers, I'm trying something new, from scuba diving to flying! I've really enjoyed all of the activities run by the club in my first year and can't wait to meet new people and go on more exciting trips :)" 
 ---
