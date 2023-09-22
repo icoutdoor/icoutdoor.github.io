@@ -216,7 +216,7 @@ tile:hover tile-txt {
 
 event {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	min-width: 300px;
 	padding: max(2%, 17px);
 	margin: 1%;
@@ -251,17 +251,17 @@ event .dnt {
 	border-radius: 5px;
 	width: 35%;
 	background-color: var(--the-accent);
-	color: var(--the-light);
+	color: var(--off-white);
 }
 
 event .date {
 	font-size: large;
-	color: var(--the-light);
+	color: var(--off-white);
 }
 
 event .time {
 	font-size: small;
-	color: var(--the-light);
+	color: var(--off-white);
 }
 
 event .detail {
