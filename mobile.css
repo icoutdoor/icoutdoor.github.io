@@ -1,5 +1,5 @@
 @media handheld,
-screen and (max-width: 1000px) {
+screen and (max-width: 900px) {
         h1 {
         font-size: xxx-large;
     }
@@ -28,7 +28,7 @@ screen and (max-width: 1000px) {
         font-size: xx-large;
     }
 
-    tile:hover {
+    tile:active {
         position: absolute;
         z-index: 100;
         top: 50vh;
@@ -36,9 +36,9 @@ screen and (max-width: 1000px) {
         transform: translate(-50%, -50%) scale(2);
         -webkit-transform: translate(-50%, -50%) scale(2);
         -ms-transform: translate(-50%, -50%) scale(2);
-        transition: all 0.4s ease;
-        -webkit-transition: all 0.4s ease;
-        -moz-transition: all 0.4s ease;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
     }
 
     tile p {
