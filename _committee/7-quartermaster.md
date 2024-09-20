@@ -1,6 +1,6 @@
 ---
 position: "Quartermaster"
-img: "soya.jpeg"
+img: "soya.jpg"
 
 name: "Soya"
 blurb: "Hi I’m Soya, the quartermaster for this year. Personally, I like to live life by following the “carpe diem” principle, literally meaning “seize the day” - enjoy life while we can.  
