@@ -2,6 +2,6 @@
 position: "Equipment Officer"
 img: "stores.jpeg"
 
-name: "Vacancy"
-blurb: "We will hold an election during the first term to fill the position of Equipment Officer. Let us know if you'd like to run!"
+name: "Baptiste"
+blurb: "Hello hello, I am in charge of equipment this year so expect a low survival rate amongst freshers. I am an eternal Imperial student (5 years and counting...) so feel free to ask me anything! See you soon "
 ---
