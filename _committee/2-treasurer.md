@@ -2,6 +2,6 @@
 position: "Treasurer"
 img: "treasurer.jpeg"
 
-name: "Ashley"
-blurb: "Hi! I'm Ashley. I'm a second-year Aero student and am super excited to be treasurer this year. I'm an adventure enthusiast - when I'm not crunching numbers, I'm trying something new, from scuba diving to flying! I've really enjoyed all of the activities run by the club in my first year and can't wait to meet new people and go on more exciting trips :)" 
+name: "Samir"
+blurb: "Hello I’m Samir and I am treasurer. I am going to steal all your money and avoid taxes. I hope you like friendly people because I’m not one of them. If you need any help ask Baptiste - he loves questions (cgp23@ic.ac.uk). I am best known for not sleeping, not eating anything but raw cake batter and sweating like a hose anytime the sun comes out. I like cuddles and green (phasing into yellow because of Ceri)" 
 ---
