@@ -1,6 +1,6 @@
 ---
-name: "RavensWall"
-event-date: "Date TBC"
-event-time: ""
-description: "Outdoor Club members get a big discount at all of LCC's bouldering centres (all the ones ending -Wall). Join us every second Monday at RavensWall!"
+name: "Chess Valley Hike"
+event-date: "12th Oct"
+event-time: "8AM-5PM"
+description: "Join us for the first trip of the year, which will be a beautiful hike in the Chess Valley. Sign up to our mailing list for details!"
 ---
