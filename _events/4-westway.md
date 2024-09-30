@@ -1,6 +1,6 @@
 ---
-name: "Westway"
-event-date: "Date TBC"
-event-time: "6-8pm"
-description: "Westway is the best climbing centre with rope climbing in our part of London. Come along with Outdoor Club every second Thursday - whether beginner or seasoned pro!"
+name: "Meet the Committee"
+event-date: "8th Oct"
+event-time: "7pm Onwards"
+description: "Come and get to know this years committee and our wonderfull members at the Union Bar"
 ---
