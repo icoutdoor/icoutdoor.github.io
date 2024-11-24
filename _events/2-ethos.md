@@ -1,6 +1,6 @@
 ---
-name: "Ethos"
-event-date: "3rd Oct"
-event-time: "6-8PM"
-description: "Ethos is Imperial's very own climbing wall - come along for the cheapest climbs in London (£2/session for members)!! It's a great place to learn - whether its your first time climbing or you want to learn lead."
+name: "Indoor Rope Climbing Westway"
+event-date: "Thursdays"
+event-time: "6PM Onwards"
+description: "Join us for indoor top rope and lead climbing at West London's best climbing gym, Westway! Members can rent all the equipment from the club for free; just be sure to let us know so that we can bring what's required. We usually catch the bus from campus, so be sure to check the group chat for details"
 ---
