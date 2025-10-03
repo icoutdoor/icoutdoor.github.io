@@ -1,7 +1,8 @@
 ---
 position: "Secretary"
-img: "leah.jpg"
+img: "josh.jpg"
 
-name: "Leah"
-blurb: "Hi, I’m Leah, secretary this yr. I am super exited to be on committee this year and helping plan the trips for you to enjoy. I enjoy spending time outdoors and doing all sorts of activities. I look forward to meeting club members this year and exploring new places together."
+name: "Josh"
+blurb: "Favourite ICOC Memory: Nearly fainting on both Easter & Summer tour Via Ferratas last year
+    fun fact: im scared of heights"
 ---
