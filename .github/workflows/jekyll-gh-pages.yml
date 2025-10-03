@@ -26,14 +26,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4  # <-- CHANGED from @v3 to @v4
+        uses: actions/checkout@v4  # <-- UPDATED: Recommended latest version
+
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3 # <-- UPDATED: To the latest v3 (v2 is deprecated in some usage)
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
