@@ -1,7 +1,9 @@
 ---
 position: "Equipment Officer"
-img: "bap.jpg"
+img: "annabel.jpg"
 
-name: "Baptiste"
-blurb: "Hello hello, I am in charge of equipment this year so expect a low survival rate amongst freshers. I am an eternal Imperial student (5 years and counting...) so feel free to ask me anything! See you soon "
+name: "annabel"
+blurb: "Favourite ICOC Memory: Absolute chaos on summer tour with everyone screaming Unwritten waiting for the storm to pass and routes to dry.
+    Fun fact: I’m a climbing instructor but the first time I did outdoor climbing was with the Outdoor Club!" 
+    
 ---

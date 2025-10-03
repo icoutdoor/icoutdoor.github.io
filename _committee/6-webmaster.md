@@ -1,7 +1,8 @@
 ---
 position: "Webmaster"
-img: "abby.jpg"
+img: "lydia.jpg"
 
-name: "Abby"
-blurb: "Hey I’m Abby, I’m 3rd year EEE and webmaster, so watch this space for updates on what we’re up to! I started climbing at uni and like getting to climb outdoors on society trips, so hope to see you on some!"
+name: "Lydia"
+blurb: "Favourite ICOC Memory: fighting for my life on the overhung sections of the via ferrata in sardinia + the piscine.
+    Fun Fact: i joined icoc to touch grass; now im chronically outdoors"
 ---
